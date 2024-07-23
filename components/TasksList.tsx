@@ -7,11 +7,10 @@ import { AnimatePresence } from "framer-motion";
 
 export function TasksList() {
   const { tasks } = useTasks();
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="flex flex-col gap-4 min-w-[500px]">
-        <h1 className="text-2xl font-bold">My Todos</h1>
+        <h1 className="text-2xl font-bold">✍️ My Todos</h1>
         <AddTodo />
 
         <AnimatePresence>
