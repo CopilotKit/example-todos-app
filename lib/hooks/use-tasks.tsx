@@ -31,12 +31,12 @@ const defaultTasks: Task[] = [
   },
   {
     id: 4,
-    title: "Prepare presentation slides",
+    title: "Send meeting notes email",
     status: TaskStatus.todo,
   },
   {
     id: 5,
-    title: "Prepare presentation slides",
+    title: "Review Uli's pull request",
     status: TaskStatus.todo,
   },
 ];
