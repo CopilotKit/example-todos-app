@@ -18,6 +18,7 @@ export default function Home() {
           initial: "Hi! 👋 I'm here to help you get stuff done.",
         }}
         defaultOpen={true}
+        clickOutsideToClose={false}
       >
         <TasksProvider>
           <TasksList />
