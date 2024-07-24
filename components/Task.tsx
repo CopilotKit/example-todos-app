@@ -3,8 +3,9 @@ import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { TrashIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { TaskStatus, useTasks, type Task } from "@/lib/hooks/use-tasks";
+import { useTasks } from "@/lib/hooks/use-tasks";
 import { motion } from "framer-motion";
+import { TaskStatus, type Task } from "@/lib/tasks.types";
 
 export function Task({ task: { id, title, status } }: { task: Task }) {
   const { setTaskStatus, deleteTask } = useTasks();

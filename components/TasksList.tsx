@@ -2,14 +2,15 @@
 
 import { AddTodo } from "@/components/AddTodo";
 import { Task } from "@/components/Task";
-import { TaskStatus, useTasks } from "@/lib/hooks/use-tasks";
+import { useTasks } from "@/lib/hooks/use-tasks";
+import { TaskStatus } from "@/lib/tasks.types";
 import { AnimatePresence } from "framer-motion";
 
 export function TasksList() {
   const { tasks } = useTasks();
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex flex-col gap-4 min-w-[500px]">
+    <main className="flex min-h-screen flex-col items-center justify-between p-8 md:p-24">
+      <div className="flex flex-col gap-4 min-w-full md:min-w-[500px]">
         <h1 className="text-2xl font-bold">✍️ My Todos</h1>
         <AddTodo />
 
