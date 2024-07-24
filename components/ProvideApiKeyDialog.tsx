@@ -56,7 +56,7 @@ export function ProvideApiKeyDialog() {
               <span>Don{"'"}t have an API key?</span>{" "}
               <Button variant="link" size="sm" className="mx-0 px-0 underline">
                 <Link
-                  href="https://cloud.copilotkit.com/signup?ref=example-todos-app-provide-api-key"
+                  href="https://cloud.copilotkit.ai?ref=example-todos-app-provide-api-key"
                   target="_blank"
                 >
                   Sign up for free
