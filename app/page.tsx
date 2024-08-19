@@ -6,16 +6,14 @@ import { TasksProvider } from "@/lib/hooks/use-tasks";
 import { CopilotKit } from "@copilotkit/react-core";
 import { CopilotPopup } from "@copilotkit/react-ui";
 import "@copilotkit/react-ui/styles.css";
-import { useSearchParams } from "next/navigation";
 
 export default function Home() {
-  const searchParams = useSearchParams();
-  const publicApiKey = searchParams.get("publicApiKey");
+  const COPILOT_CLOUD_PUBLIC_API_KEY = process.env.NEXT_PUBLIC_COPILOT_CLOUD_PUBLIC_API_KEY;
 
   return (
     <>
       <ProvideApiKeyDialog />
-      <CopilotKit publicApiKey={(publicApiKey as string) || "undefined"}>
+      <CopilotKit publicApiKey={COPILOT_CLOUD_PUBLIC_API_KEY}>
         <TasksProvider>
           <TasksList />
         </TasksProvider>
