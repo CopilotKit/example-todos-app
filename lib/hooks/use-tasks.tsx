@@ -1,4 +1,4 @@
-import { useCopilotAction, useCopilotReadable } from "@copilotkit/react-core";
+import { useCopilotAction, useCopilotReadable } from "@copilotkit-alt/react-core";
 import { createContext, useContext, useState, ReactNode } from "react";
 import { defaultTasks } from "../default-tasks";
 import { Task, TaskStatus } from "../tasks.types";
