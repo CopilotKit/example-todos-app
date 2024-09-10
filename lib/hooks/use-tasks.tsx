@@ -1,3 +1,5 @@
+// src/lib/hooks/use-tasks.tsx
+
 import { useCopilotAction, useCopilotReadable } from "@copilotkit/react-core";
 import { createContext, useContext, useState, ReactNode } from "react";
 import { defaultTasks } from "../default-tasks";
@@ -7,7 +9,7 @@ let nextId = defaultTasks.length + 1;
 
 type TasksContextType = {
   tasks: Task[];
-  addTask: (title: string) => void;
+  addTask: (title: string, deadline: Date) => void;
   setTaskStatus: (id: number, status: TaskStatus) => void;
   deleteTask: (id: number) => void;
 };
@@ -32,9 +34,15 @@ export const TasksProvider = ({ children }: { children: ReactNode }) => {
         description: "The title of the task",
         required: true,
       },
+      {
+        name: "deadline",
+        type: "string",
+        description: "The deadline of the task",
+        required: true,
+      },
     ],
-    handler: ({ title }) => {
-      addTask(title);
+    handler: ({ title, deadline }) => {
+      addTask(title, new Date(deadline));
     }
   });
 
@@ -77,8 +85,8 @@ export const TasksProvider = ({ children }: { children: ReactNode }) => {
     }
   });
 
-  const addTask = (title: string) => {
-    setTasks([...tasks, { id: nextId++, title, status: TaskStatus.todo }]);
+  const addTask = (title: string, deadline: Date) => {
+    setTasks([...tasks, { id: nextId++, title, status: TaskStatus.todo, deadline }]);
   };
 
   const setTaskStatus = (id: number, status: TaskStatus) => {

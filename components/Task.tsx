@@ -6,9 +6,32 @@ import { cn } from "@/lib/utils";
 import { useTasks } from "@/lib/hooks/use-tasks";
 import { motion } from "framer-motion";
 import { TaskStatus, type Task } from "@/lib/tasks.types";
+import { useState, useEffect } from "react";
 
-export function Task({ task: { id, title, status } }: { task: Task }) {
+
+export function Task({ task: { id, title, status, deadline } }: { task: Task }) {
   const { setTaskStatus, deleteTask } = useTasks();
+  const [remainingTime, setRemainingTime] = useState("");
+
+  useEffect(() => {
+    const calculateRemainingTime = () => {
+      const now = new Date();
+      const timeDiff = new Date(deadline).getTime() - now.getTime();
+      if (timeDiff <= 0) {
+        setRemainingTime("Deadline passed");
+        return;
+      }
+      const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+      const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
+      setRemainingTime(`${hours}h ${minutes}m ${seconds}s`);
+    };
+
+    calculateRemainingTime();
+    const interval = setInterval(calculateRemainingTime, 1000);
+
+    return () => clearInterval(interval);
+  }, [deadline]);
 
   return (
     <motion.div
@@ -33,6 +56,7 @@ export function Task({ task: { id, title, status } }: { task: Task }) {
       >
         {title}
       </Label>
+      <div className="text-sm text-neutral-500">{remainingTime}</div>
       <Button variant="ghost" size="sm" onClick={() => deleteTask(id)}>
         <TrashIcon className="w-4 h-4" />
         <span className="sr-only">Delete</span>
