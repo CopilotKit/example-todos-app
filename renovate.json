@@ -2,16 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "dependencyDashboard": true,
   "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchPackagePatterns": ["^@copilotkit/"],
-      "enabled": true
-    },
-    {
-      "matchPackagePatterns": ["*"],
-      "enabled": false
-    }
+    "config:recommended"
   ]
 }
