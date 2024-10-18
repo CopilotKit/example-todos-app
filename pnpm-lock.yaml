@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@copilotkit/react-core':
-        specifier: ^1.3.5
-        version: 1.3.5(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.3.6
+        version: 1.3.6(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@copilotkit/react-ui':
-        specifier: ^1.3.5
-        version: 1.3.5(@types/react@18.3.5)(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.3.6
+        version: 1.3.6(@types/react@18.3.5)(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@copilotkit/runtime-client-gql':
-        specifier: ^1.3.5
-        version: 1.3.5(ignore@5.3.2)(react@18.3.1)
+        specifier: ^1.3.6
+        version: 1.3.6(ignore@5.3.2)(react@18.3.1)
       '@radix-ui/react-checkbox':
         specifier: ^1.1.1
         version: 1.1.1(@types/react-dom@18.3.0)(@types/react@18.3.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -112,27 +112,27 @@ packages:
     resolution: {integrity: sha512-FjoyLe754PMiYsFaN5C94ttGiOmBNYTf6pLr4xXHAT5uctHb092PBszndLDR5XA/jghQvn4n7JMHl7dmTgbm9w==}
     engines: {node: '>=6.9.0'}
 
-  '@copilotkit/react-core@1.3.5':
-    resolution: {integrity: sha512-6sj5f6CiYFELi3rNh6ySEvhJRQ9NNk8VV45mbU2/Osbwa1so9rwgudp2yh9VCJfqxPd1MuJR4P2OUSxjuc9Rtw==}
+  '@copilotkit/react-core@1.3.6':
+    resolution: {integrity: sha512-atiEMv0dRqHwnGpBV75j5+s5QOvlN3rflTbToItg30Hnvhxo6BsXcWhq8dEKgHBpa5Rbp09JVuv1d5d+6SkXmQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
 
-  '@copilotkit/react-ui@1.3.5':
-    resolution: {integrity: sha512-PD7pXFueGTxuKxme5fRGBw84McCg609OyscTS/HZt5xIJnQNGdQBeGKdbXuTLleFcSPvv8RPJqAg2STeRjps/g==}
+  '@copilotkit/react-ui@1.3.6':
+    resolution: {integrity: sha512-kKmprQTs0lYNGcauTDplL5INuWbaIJoQ8oWUFq1bFR11+Q+DLrMpI807UM48keAJzq5j3z3cZfmagNV01i+1lg==}
     peerDependencies:
       react: ^18.2.0
 
-  '@copilotkit/runtime-client-gql@1.3.5':
-    resolution: {integrity: sha512-0imgz7Ez7lJEuMDmUYDLeJurRRfqTUxRW8P7X1TM6Bs4/ZKttycGvjYZRvlhAbtX0ePnEQRplsQCw4fRyUOtqA==}
+  '@copilotkit/runtime-client-gql@1.3.6':
+    resolution: {integrity: sha512-vJtAPnM8nDvV6trrfISMM6gypSOEl+/6nSVoNnQole3gTUqLhfKRHAC2WoWRjs7TMVKPMBL+kxfTLcRWl2FZ4A==}
     peerDependencies:
       react: ^18.2.0
 
-  '@copilotkit/runtime@1.3.5':
-    resolution: {integrity: sha512-G2UGsEjgq+824AIdDj34o9OK5ccL2e16AzIwVIoRoMTgM7nAt3RgVlASqV9K0C11Jf872EvgZSaxkcviFI2V1Q==}
+  '@copilotkit/runtime@1.3.6':
+    resolution: {integrity: sha512-gI04MBWDsLmFWkSG6Szx+SHOzziBBibe+tsaHXzDzKtWIWczE24OMy4e2xlpxiftgreNhXrNvFK3xlP9sPjBlQ==}
 
-  '@copilotkit/shared@1.3.5':
-    resolution: {integrity: sha512-8xz0OU+8YpGl1Q4IHzgjhn6hWYalpS8NqujcJQUUk+ZVCCmCXvL2Dr4DhjZyPwSofEFfgppYcc6JfZUHBsQ/Hg==}
+  '@copilotkit/shared@1.3.6':
+    resolution: {integrity: sha512-5tIDbtBMcVMBaswewbwTtVXQOWhDn+Y2zI8Wiijw0xJvoajA3BLMH/swragZXTgLbM2fyFtAoMSk8sZNwBkyTA==}
 
   '@envelop/core@5.0.2':
     resolution: {integrity: sha512-tVL6OrMe6UjqLosiE+EH9uxh2TQC0469GwF4tE014ugRaDDKKVWwFwZe0TBMlcyHKh5MD4ZxktWo/1hqUxIuhw==}
@@ -1004,8 +1004,8 @@ packages:
   '@types/node@18.19.50':
     resolution: {integrity: sha512-xonK+NRrMBRtkL1hVCc3G+uXtjh1Al4opBLjqVmipe5ZAaBYWW6cNAiBVZ1BvmkBhep698rP3UM3aRAdSALuhg==}
 
-  '@types/node@18.19.55':
-    resolution: {integrity: sha512-zzw5Vw52205Zr/nmErSEkN5FLqXPuKX/k5d1D7RKHATGqU7y6YfX9QxZraUzUrFGqH6XzOzG196BC35ltJC4Cw==}
+  '@types/node@18.19.56':
+    resolution: {integrity: sha512-4EMJlWwwGnVPflJAtM14p9eVSa6BOv5b92mCsh5zcM1UagNtEtrbbtaE6WE1tw2TabavatnwqXjlIpcAEuJJNg==}
 
   '@types/node@20.16.5':
     resolution: {integrity: sha512-VwYCweNo3ERajwy0IUlqqcyZ8/A7Zwa9ZP3MnENWcB11AejO+tLy3pu850goUW2FC/IJMdZUfKpX/yxL1gymCA==}
@@ -1967,6 +1967,9 @@ packages:
   highlight.js@10.7.3:
     resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
 
+  highlightjs-vue@1.0.0:
+    resolution: {integrity: sha512-PDEfEF102G23vHmPhLyPboFCD+BkMGu+GuJe2d9/eH4FsCwvgBpnc9n0pGE+ffKdph38s6foEZiEjdgHdzp+IA==}
+
   http-errors@2.0.0:
     resolution: {integrity: sha512-FtwrG/euBzaEjYeRqOgly7G0qviiXoJWnvEH2Z1plBdXgbyjv34pHTSb9zoeHMyDy33+DWy5Wt9Wo+TURtOYSQ==}
     engines: {node: '>= 0.8'}
@@ -2393,8 +2396,8 @@ packages:
   langchainhub@0.0.11:
     resolution: {integrity: sha512-WnKI4g9kU2bHQP136orXr2bcRdgz9iiTBpTN0jWt9IlScUKnJBoD0aa2HOzHURQKeQDnt2JwqVmQ6Depf5uDLQ==}
 
-  langsmith@0.1.65:
-    resolution: {integrity: sha512-+aBft8/jUQbVPv3MWVwFwW/rMxyyA8xSRIsjWl773Nc7LDniczuf2rxZEUslV02RB36EIBgCJPNX7jz2L5YsIQ==}
+  langsmith@0.1.66:
+    resolution: {integrity: sha512-ZhZ9g8t/qjj0oUWpvKLtUe3qxDL/N0wG0m+Ctkxf0keopYJkcMJg4/71jl6ZYyiSU8xlC27aixXOT0uvLhqcFA==}
     peerDependencies:
       openai: '*'
     peerDependenciesMeta:
@@ -2412,8 +2415,8 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
-  libphonenumber-js@1.11.11:
-    resolution: {integrity: sha512-mF3KaORjJQR6JBNcOkluDcJKhtoQT4VTLRMrX1v/wlBayL4M8ybwEDeryyPcrSEJmD0rVwHUbBarpZwN5NfPFQ==}
+  libphonenumber-js@1.11.12:
+    resolution: {integrity: sha512-QkJn9/D7zZ1ucvT++TQSvZuSA2xAWeUytU+DiEQwbPKLyrDpvbul2AFs1CGbRAPpSCCk47aRAb5DX5mmcayp4g==}
 
   lilconfig@2.1.0:
     resolution: {integrity: sha512-utWOt/GHzuUxnLKxB6dk81RoOeoNeHgbrXiuGk4yyF5qlRz+iIVWu56E2fqGHFrXz0QNUhLB/8nKqvRH66JKGQ==}
@@ -2776,8 +2779,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openai@4.67.3:
-    resolution: {integrity: sha512-HT2tZgjLgRqbLQNKmYtjdF/4TQuiBvg1oGvTDhwpSEQzxo6/oM1us8VQ53vBK2BiKvCxFuq6gKGG70qfwrNhKg==}
+  openai@4.68.0:
+    resolution: {integrity: sha512-cVH0WMKd4cColyorwqo+Gn08lN8LQ8uKLMfWXFfvnedrLq3lCH6lRd0Rd0XJRunyfgNve/L9E7uZLAii39NBkw==}
     hasBin: true
     peerDependencies:
       zod: ^3.23.8
@@ -2867,14 +2870,11 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
 
-  pino-abstract-transport@1.2.0:
-    resolution: {integrity: sha512-Guhh8EZfPCfH+PMXAb6rKOjGQEoy0xlAIn+irODG5kgfYV+BQ0rGYYWTIel3P5mmyXqkYkPmdIkywsn6QKUR1Q==}
-
   pino-abstract-transport@2.0.0:
     resolution: {integrity: sha512-F63x5tizV6WCh4R6RHyi2Ml+M70DNRXt/+HANowMflpgGFMAym/VKm6G7ZOQRjqN7XbGxK1Lg9t6ZrtzOaivMw==}
 
-  pino-pretty@11.2.2:
-    resolution: {integrity: sha512-2FnyGir8nAJAqD3srROdrF1J5BIcMT4nwj7hHSc60El6Uxlym00UbCCd8pYIterstVBFlMyF1yFV8XdGIPbj4A==}
+  pino-pretty@11.3.0:
+    resolution: {integrity: sha512-oXwn7ICywaZPHmu3epHGU2oJX4nPmKvHvB/bwrJHlGcbEWaVcotkpyVHMKLKmiVryWYByNp0jpgAcXpFJDXJzA==}
     hasBin: true
 
   pino-std-serializers@7.0.0:
@@ -3041,8 +3041,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-syntax-highlighter@15.5.0:
-    resolution: {integrity: sha512-+zq2myprEnQmH5yw6Gqc8lD55QHnpKaU8TOcFeC/Lg/MQSs8UknEA0JC4nTZGFAXC2J2Hyj/ijJ7NlabyPi2gg==}
+  react-syntax-highlighter@15.6.1:
+    resolution: {integrity: sha512-OqJ2/vL7lEeV5zTJyG7kmARppUjiB9h9udl4qHQjjgEos66z00Ia0OckwYfRxCSFrW8RJIBnsBwQsHZbVPspqg==}
     peerDependencies:
       react: '>= 0.14.0'
 
@@ -3375,6 +3375,9 @@ packages:
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
+  tslib@2.8.0:
+    resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
+
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
     engines: {node: '>= 0.8.0'}
@@ -3617,7 +3620,7 @@ snapshots:
 
   '@anthropic-ai/sdk@0.27.3':
     dependencies:
-      '@types/node': 18.19.55
+      '@types/node': 18.19.56
       '@types/node-fetch': 2.6.11
       abort-controller: 3.0.0
       agentkeepalive: 4.5.0
@@ -3629,7 +3632,7 @@ snapshots:
 
   '@anthropic-ai/sdk@0.9.1':
     dependencies:
-      '@types/node': 18.19.55
+      '@types/node': 18.19.56
       '@types/node-fetch': 2.6.11
       abort-controller: 3.0.0
       agentkeepalive: 4.5.0
@@ -3645,10 +3648,10 @@ snapshots:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@copilotkit/react-core@1.3.5(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@copilotkit/react-core@1.3.6(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@copilotkit/runtime-client-gql': 1.3.5(ignore@5.3.2)(react@18.3.1)
-      '@copilotkit/shared': 1.3.5
+      '@copilotkit/runtime-client-gql': 1.3.6(ignore@5.3.2)(react@18.3.1)
+      '@copilotkit/shared': 1.3.6
       '@scarf/scarf': 1.3.0
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -3777,15 +3780,15 @@ snapshots:
       - youtube-transcript
       - youtubei.js
 
-  '@copilotkit/react-ui@1.3.5(@types/react@18.3.5)(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@copilotkit/react-ui@1.3.6(@types/react@18.3.5)(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@copilotkit/react-core': 1.3.5(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@copilotkit/runtime-client-gql': 1.3.5(ignore@5.3.2)(react@18.3.1)
-      '@copilotkit/shared': 1.3.5
+      '@copilotkit/react-core': 1.3.6(ignore@5.3.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@copilotkit/runtime-client-gql': 1.3.6(ignore@5.3.2)(react@18.3.1)
+      '@copilotkit/shared': 1.3.6
       '@headlessui/react': 2.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-markdown: 8.0.7(@types/react@18.3.5)(react@18.3.1)
-      react-syntax-highlighter: 15.5.0(react@18.3.1)
+      react-syntax-highlighter: 15.6.1(react@18.3.1)
       remark-gfm: 3.0.1
       remark-math: 5.1.1
     transitivePeerDependencies:
@@ -3914,10 +3917,10 @@ snapshots:
       - youtube-transcript
       - youtubei.js
 
-  '@copilotkit/runtime-client-gql@1.3.5(ignore@5.3.2)(react@18.3.1)':
+  '@copilotkit/runtime-client-gql@1.3.6(ignore@5.3.2)(react@18.3.1)':
     dependencies:
-      '@copilotkit/runtime': 1.3.5(class-validator@0.14.1)(ignore@5.3.2)
-      '@copilotkit/shared': 1.3.5
+      '@copilotkit/runtime': 1.3.6(class-validator@0.14.1)(ignore@5.3.2)
+      '@copilotkit/shared': 1.3.6
       '@urql/core': 5.0.6(graphql@16.9.0)
       class-transformer: 0.5.1
       class-validator: 0.14.1
@@ -4050,14 +4053,14 @@ snapshots:
       - youtube-transcript
       - youtubei.js
 
-  '@copilotkit/runtime@1.3.5(class-validator@0.14.1)(ignore@5.3.2)':
+  '@copilotkit/runtime@1.3.6(class-validator@0.14.1)(ignore@5.3.2)':
     dependencies:
       '@anthropic-ai/sdk': 0.27.3
-      '@copilotkit/shared': 1.3.5
+      '@copilotkit/shared': 1.3.6
       '@google/generative-ai': 0.11.5
       '@graphql-yoga/plugin-defer-stream': 3.7.0(graphql-yoga@5.7.0(graphql@16.9.0))(graphql@16.9.0)
-      '@langchain/community': 0.0.53(openai@4.67.3(zod@3.23.8))
-      '@langchain/core': 0.1.63(openai@4.67.3(zod@3.23.8))
+      '@langchain/community': 0.0.53(openai@4.68.0(zod@3.23.8))
+      '@langchain/core': 0.1.63(openai@4.68.0(zod@3.23.8))
       '@langchain/openai': 0.0.28
       class-transformer: 0.5.1
       express: 4.21.1
@@ -4065,10 +4068,10 @@ snapshots:
       graphql-scalars: 1.23.0(graphql@16.9.0)
       graphql-yoga: 5.7.0(graphql@16.9.0)
       groq-sdk: 0.5.0
-      langchain: 0.1.37(ignore@5.3.2)(openai@4.67.3(zod@3.23.8))
-      openai: 4.67.3(zod@3.23.8)
+      langchain: 0.1.37(ignore@5.3.2)(openai@4.68.0(zod@3.23.8))
+      openai: 4.68.0(zod@3.23.8)
       pino: 9.5.0
-      pino-pretty: 11.2.2
+      pino-pretty: 11.3.0
       reflect-metadata: 0.2.2
       rxjs: 7.8.1
       type-graphql: 2.0.0-rc.1(class-validator@0.14.1)(graphql-scalars@1.23.0(graphql@16.9.0))(graphql@16.9.0)
@@ -4198,7 +4201,7 @@ snapshots:
       - youtube-transcript
       - youtubei.js
 
-  '@copilotkit/shared@1.3.5':
+  '@copilotkit/shared@1.3.6':
     dependencies:
       '@segment/analytics-node': 2.2.0
       chalk: 4.1.2
@@ -4209,11 +4212,11 @@ snapshots:
   '@envelop/core@5.0.2':
     dependencies:
       '@envelop/types': 5.0.0
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@envelop/types@5.0.0':
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@eslint-community/eslint-utils@4.4.0(eslint@8.57.0)':
     dependencies:
@@ -4271,21 +4274,21 @@ snapshots:
       '@graphql-typed-document-node/core': 3.2.0(graphql@16.9.0)
       '@repeaterjs/repeater': 3.0.6
       graphql: 16.9.0
-      tslib: 2.7.0
+      tslib: 2.8.0
       value-or-promise: 1.0.12
 
   '@graphql-tools/merge@9.0.8(graphql@16.9.0)':
     dependencies:
       '@graphql-tools/utils': 10.5.5(graphql@16.9.0)
       graphql: 16.9.0
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@graphql-tools/schema@10.0.7(graphql@16.9.0)':
     dependencies:
       '@graphql-tools/merge': 9.0.8(graphql@16.9.0)
       '@graphql-tools/utils': 10.5.5(graphql@16.9.0)
       graphql: 16.9.0
-      tslib: 2.7.0
+      tslib: 2.8.0
       value-or-promise: 1.0.12
 
   '@graphql-tools/utils@10.5.5(graphql@16.9.0)':
@@ -4294,7 +4297,7 @@ snapshots:
       cross-inspect: 1.0.1
       dset: 3.1.4
       graphql: 16.9.0
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@graphql-typed-document-node/core@3.2.0(graphql@16.9.0)':
     dependencies:
@@ -4302,7 +4305,7 @@ snapshots:
 
   '@graphql-yoga/logger@2.0.0':
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@graphql-yoga/plugin-defer-stream@3.7.0(graphql-yoga@5.7.0(graphql@16.9.0))(graphql@16.9.0)':
     dependencies:
@@ -4315,12 +4318,12 @@ snapshots:
       '@graphql-yoga/typed-event-target': 3.0.0
       '@repeaterjs/repeater': 3.0.6
       '@whatwg-node/events': 0.1.2
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@graphql-yoga/typed-event-target@3.0.0':
     dependencies:
       '@repeaterjs/repeater': 3.0.6
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@headlessui/react@2.1.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -4371,13 +4374,13 @@ snapshots:
 
   '@kamilkisiela/fast-url-parser@1.1.4': {}
 
-  '@langchain/community@0.0.53(openai@4.67.3(zod@3.23.8))':
+  '@langchain/community@0.0.53(openai@4.68.0(zod@3.23.8))':
     dependencies:
-      '@langchain/core': 0.1.63(openai@4.67.3(zod@3.23.8))
+      '@langchain/core': 0.1.63(openai@4.68.0(zod@3.23.8))
       '@langchain/openai': 0.0.28
       expr-eval: 2.0.2
       flat: 5.0.2
-      langsmith: 0.1.65(openai@4.67.3(zod@3.23.8))
+      langsmith: 0.1.66(openai@4.68.0(zod@3.23.8))
       uuid: 9.0.1
       zod: 3.23.8
       zod-to-json-schema: 3.23.3(zod@3.23.8)
@@ -4385,13 +4388,13 @@ snapshots:
       - encoding
       - openai
 
-  '@langchain/core@0.1.63(openai@4.67.3(zod@3.23.8))':
+  '@langchain/core@0.1.63(openai@4.68.0(zod@3.23.8))':
     dependencies:
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.15
-      langsmith: 0.1.65(openai@4.67.3(zod@3.23.8))
+      langsmith: 0.1.66(openai@4.68.0(zod@3.23.8))
       ml-distance: 4.0.1
       mustache: 4.2.0
       p-queue: 6.6.2
@@ -4402,13 +4405,13 @@ snapshots:
     transitivePeerDependencies:
       - openai
 
-  '@langchain/core@0.2.36(openai@4.67.3(zod@3.23.8))':
+  '@langchain/core@0.2.36(openai@4.68.0(zod@3.23.8))':
     dependencies:
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.15
-      langsmith: 0.1.65(openai@4.67.3(zod@3.23.8))
+      langsmith: 0.1.66(openai@4.68.0(zod@3.23.8))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
@@ -4420,17 +4423,17 @@ snapshots:
 
   '@langchain/openai@0.0.28':
     dependencies:
-      '@langchain/core': 0.1.63(openai@4.67.3(zod@3.23.8))
+      '@langchain/core': 0.1.63(openai@4.68.0(zod@3.23.8))
       js-tiktoken: 1.0.15
-      openai: 4.67.3(zod@3.23.8)
+      openai: 4.68.0(zod@3.23.8)
       zod: 3.23.8
       zod-to-json-schema: 3.23.3(zod@3.23.8)
     transitivePeerDependencies:
       - encoding
 
-  '@langchain/textsplitters@0.0.3(openai@4.67.3(zod@3.23.8))':
+  '@langchain/textsplitters@0.0.3(openai@4.68.0(zod@3.23.8))':
     dependencies:
-      '@langchain/core': 0.2.36(openai@4.67.3(zod@3.23.8))
+      '@langchain/core': 0.2.36(openai@4.68.0(zod@3.23.8))
       js-tiktoken: 1.0.15
     transitivePeerDependencies:
       - openai
@@ -4758,11 +4761,11 @@ snapshots:
       '@lukeed/uuid': 2.0.1
       '@segment/analytics-generic-utils': 1.2.0
       dset: 3.1.4
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@segment/analytics-generic-utils@1.2.0':
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@segment/analytics-node@2.2.0':
     dependencies:
@@ -4772,7 +4775,7 @@ snapshots:
       buffer: 6.0.3
       jose: 5.9.4
       node-fetch: 2.7.0
-      tslib: 2.7.0
+      tslib: 2.8.0
     transitivePeerDependencies:
       - encoding
 
@@ -4780,7 +4783,7 @@ snapshots:
 
   '@swc/helpers@0.5.13':
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@swc/helpers@0.5.5':
     dependencies:
@@ -4822,7 +4825,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@18.19.55':
+  '@types/node@18.19.56':
     dependencies:
       undici-types: 5.26.5
 
@@ -4904,7 +4907,7 @@ snapshots:
 
   '@whatwg-node/events@0.1.2':
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@whatwg-node/fetch@0.9.21':
     dependencies:
@@ -4916,12 +4919,12 @@ snapshots:
       '@kamilkisiela/fast-url-parser': 1.1.4
       busboy: 1.6.0
       fast-querystring: 1.1.2
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   '@whatwg-node/server@0.9.49':
     dependencies:
       '@whatwg-node/fetch': 0.9.21
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   abort-controller@3.0.0:
     dependencies:
@@ -5166,7 +5169,7 @@ snapshots:
   class-validator@0.14.1:
     dependencies:
       '@types/validator': 13.12.2
-      libphonenumber-js: 1.11.11
+      libphonenumber-js: 1.11.12
       validator: 13.12.0
 
   class-variance-authority@0.7.0:
@@ -5215,7 +5218,7 @@ snapshots:
 
   cross-inspect@1.0.1:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   cross-spawn@7.0.3:
     dependencies:
@@ -5929,7 +5932,7 @@ snapshots:
   graphql-scalars@1.23.0(graphql@16.9.0):
     dependencies:
       graphql: 16.9.0
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   graphql-yoga@5.7.0(graphql@16.9.0):
     dependencies:
@@ -5944,7 +5947,7 @@ snapshots:
       dset: 3.1.4
       graphql: 16.9.0
       lru-cache: 10.4.3
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   graphql@16.9.0: {}
 
@@ -5996,6 +5999,8 @@ snapshots:
   help-me@5.0.0: {}
 
   highlight.js@10.7.3: {}
+
+  highlightjs-vue@1.0.0: {}
 
   http-errors@2.0.0:
     dependencies:
@@ -6240,19 +6245,19 @@ snapshots:
 
   kleur@4.1.5: {}
 
-  langchain@0.1.37(ignore@5.3.2)(openai@4.67.3(zod@3.23.8)):
+  langchain@0.1.37(ignore@5.3.2)(openai@4.68.0(zod@3.23.8)):
     dependencies:
       '@anthropic-ai/sdk': 0.9.1
-      '@langchain/community': 0.0.53(openai@4.67.3(zod@3.23.8))
-      '@langchain/core': 0.1.63(openai@4.67.3(zod@3.23.8))
+      '@langchain/community': 0.0.53(openai@4.68.0(zod@3.23.8))
+      '@langchain/core': 0.1.63(openai@4.68.0(zod@3.23.8))
       '@langchain/openai': 0.0.28
-      '@langchain/textsplitters': 0.0.3(openai@4.67.3(zod@3.23.8))
+      '@langchain/textsplitters': 0.0.3(openai@4.68.0(zod@3.23.8))
       binary-extensions: 2.3.0
       js-tiktoken: 1.0.15
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
       langchainhub: 0.0.11
-      langsmith: 0.1.65(openai@4.67.3(zod@3.23.8))
+      langsmith: 0.1.66(openai@4.68.0(zod@3.23.8))
       ml-distance: 4.0.1
       openapi-types: 12.1.3
       p-retry: 4.6.2
@@ -6335,7 +6340,7 @@ snapshots:
 
   langchainhub@0.0.11: {}
 
-  langsmith@0.1.65(openai@4.67.3(zod@3.23.8)):
+  langsmith@0.1.66(openai@4.68.0(zod@3.23.8)):
     dependencies:
       '@types/uuid': 10.0.0
       commander: 10.0.1
@@ -6344,7 +6349,7 @@ snapshots:
       semver: 7.6.3
       uuid: 10.0.0
     optionalDependencies:
-      openai: 4.67.3(zod@3.23.8)
+      openai: 4.68.0(zod@3.23.8)
 
   language-subtag-registry@0.3.23: {}
 
@@ -6357,7 +6362,7 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
-  libphonenumber-js@1.11.11: {}
+  libphonenumber-js@1.11.12: {}
 
   lilconfig@2.1.0: {}
 
@@ -6880,9 +6885,9 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openai@4.67.3(zod@3.23.8):
+  openai@4.68.0(zod@3.23.8):
     dependencies:
-      '@types/node': 18.19.55
+      '@types/node': 18.19.56
       '@types/node-fetch': 2.6.11
       abort-controller: 3.0.0
       agentkeepalive: 4.5.0
@@ -6969,16 +6974,11 @@ snapshots:
 
   pify@2.3.0: {}
 
-  pino-abstract-transport@1.2.0:
-    dependencies:
-      readable-stream: 4.5.2
-      split2: 4.2.0
-
   pino-abstract-transport@2.0.0:
     dependencies:
       split2: 4.2.0
 
-  pino-pretty@11.2.2:
+  pino-pretty@11.3.0:
     dependencies:
       colorette: 2.0.20
       dateformat: 4.6.3
@@ -6988,7 +6988,7 @@ snapshots:
       joycon: 3.1.1
       minimist: 1.2.8
       on-exit-leak-free: 2.1.2
-      pino-abstract-transport: 1.2.0
+      pino-abstract-transport: 2.0.0
       pump: 3.0.2
       readable-stream: 4.5.2
       secure-json-parse: 2.7.0
@@ -7169,10 +7169,11 @@ snapshots:
     optionalDependencies:
       '@types/react': 18.3.5
 
-  react-syntax-highlighter@15.5.0(react@18.3.1):
+  react-syntax-highlighter@15.6.1(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.7
       highlight.js: 10.7.3
+      highlightjs-vue: 1.0.0
       lowlight: 1.20.0
       prismjs: 1.29.0
       react: 18.3.1
@@ -7288,7 +7289,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.7.0
+      tslib: 2.8.0
 
   sade@1.8.1:
     dependencies:
@@ -7580,6 +7581,8 @@ snapshots:
 
   tslib@2.7.0: {}
 
+  tslib@2.8.0: {}
+
   type-check@0.4.0:
     dependencies:
       prelude-ls: 1.2.1
@@ -7595,7 +7598,7 @@ snapshots:
       graphql-query-complexity: 0.12.0(graphql@16.9.0)
       graphql-scalars: 1.23.0(graphql@16.9.0)
       semver: 7.6.3
-      tslib: 2.7.0
+      tslib: 2.8.0
     optionalDependencies:
       class-validator: 0.14.1
 
